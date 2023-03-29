@@ -62,9 +62,9 @@ LICENSE
     fs.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
   end
 
-  s.subspec 'path_provider_ios' do |ps|
+  s.subspec 'path_provider_foundation' do |ps|
     ps.platform              = :ios, '9.0'
-    ps.vendored_frameworks   = 'path_provider_ios.xcframework'
+    ps.vendored_frameworks   = 'path_provider_foundation.xcframework'
   end
 
   s.subspec 'tflite_flutter' do |ls|
@@ -80,11 +80,6 @@ LICENSE
   s.subspec 'webview_flutter_wkwebview' do |ws|
     ws.platform              = :ios, '9.0'
     ws.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
-  end
-
-  s.subspec 'assets_audio_player_web' do |ws|
-    ws.platform              = :ios, '9.0'
-    ws.vendored_frameworks   = 'assets_audio_player_web.xcframework'
   end
 
   s.subspec 'assets_audio_player' do |ws|
