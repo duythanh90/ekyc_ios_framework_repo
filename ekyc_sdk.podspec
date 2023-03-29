@@ -82,11 +82,6 @@ LICENSE
     ws.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
   end
 
-  s.subspec 'assets_audio_player_web' do |ws|
-    ws.platform              = :ios, '9.0'
-    ws.vendored_frameworks   = 'assets_audio_player_web.xcframework'
-  end
-
   s.subspec 'assets_audio_player' do |ws|
     ws.platform              = :ios, '9.0'
     ws.vendored_frameworks   = 'assets_audio_player.xcframework'
