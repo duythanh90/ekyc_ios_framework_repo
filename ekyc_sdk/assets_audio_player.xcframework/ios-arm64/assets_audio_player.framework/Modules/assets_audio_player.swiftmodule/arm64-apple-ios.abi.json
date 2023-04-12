@@ -1,0 +1,2543 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "assets_audio_player"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "assets_audio_player"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "assets_audio_player"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "assets_audio_player"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Player",
+        "printedName": "Player",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "playerDidFinishPlaying",
+            "printedName": "playerDidFinishPlaying(note:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNotification",
+                "printedName": "Foundation.NSNotification",
+                "usr": "c:objc(cs)NSNotification"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@assets_audio_player@objc(cs)Player(im)playerDidFinishPlayingWithNote:",
+            "mangledName": "$s19assets_audio_player6PlayerC0C16DidFinishPlaying4noteySo14NSNotificationC_tF",
+            "moduleName": "assets_audio_player",
+            "objc_name": "playerDidFinishPlayingWithNote:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Player",
+                "printedName": "assets_audio_player.Player",
+                "usr": "c:@M@assets_audio_player@objc(cs)Player"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@assets_audio_player@objc(cs)Player(im)init",
+            "mangledName": "$s19assets_audio_player6PlayerCACycfc",
+            "moduleName": "assets_audio_player",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@assets_audio_player@objc(cs)Player",
+        "mangledName": "$s19assets_audio_player6PlayerC",
+        "moduleName": "assets_audio_player",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "assets_audio_player"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "assets_audio_player"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftAssetsAudioPlayerPlugin",
+        "printedName": "SwiftAssetsAudioPlayerPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@assets_audio_player@objc(cs)SwiftAssetsAudioPlayerPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s19assets_audio_player28SwiftAssetsAudioPlayerPluginC8register4withySo07FlutterH9Registrar_p_tFZ",
+            "moduleName": "assets_audio_player",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@assets_audio_player@objc(cs)SwiftAssetsAudioPlayerPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s19assets_audio_player28SwiftAssetsAudioPlayerPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "assets_audio_player",
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftAssetsAudioPlayerPlugin",
+                "printedName": "assets_audio_player.SwiftAssetsAudioPlayerPlugin",
+                "usr": "c:@M@assets_audio_player@objc(cs)SwiftAssetsAudioPlayerPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@assets_audio_player@objc(cs)SwiftAssetsAudioPlayerPlugin(im)init",
+            "mangledName": "$s19assets_audio_player28SwiftAssetsAudioPlayerPluginCACycfc",
+            "moduleName": "assets_audio_player",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@assets_audio_player@objc(cs)SwiftAssetsAudioPlayerPlugin",
+        "mangledName": "$s19assets_audio_player28SwiftAssetsAudioPlayerPluginC",
+        "moduleName": "assets_audio_player",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 661,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 698,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 730,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 765,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
+      "length": 28,
+      "value": "\"notif.settings.nextEnabled\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1230,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 1267,
+      "length": 33,
+      "value": "\"notif.settings.playPauseEnabled\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1314,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 1346,
+      "length": 28,
+      "value": "\"notif.settings.prevEnabled\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1388,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 1423,
+      "length": 31,
+      "value": "\"notif.settings.seekBarEnabled\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1468,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 2435,
+      "length": 12,
+      "value": "\"song.title\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 13,
+      "value": "\"song.artist\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
+      "length": 12,
+      "value": "\"song.album\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 2629,
+      "length": 12,
+      "value": "\"song.image\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 2697,
+      "length": 16,
+      "value": "\"song.imageType\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 2772,
+      "length": 19,
+      "value": "\"song.imagePackage\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Array",
+      "offset": 3320,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3630,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3665,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 3892,
+      "length": 5,
+      "value": "\"log\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4073,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4099,
+      "length": 12,
+      "value": "\"liveStream\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4225,
+      "length": 32,
+      "value": "\"Couldn't parse myURL = \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4256,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4344,
+      "length": 6,
+      "value": "\"file\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4587,
+      "length": 9,
+      "value": "\"file:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4675,
+      "length": 9,
+      "value": "\"file:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4957,
+      "length": 34,
+      "value": "\"Couldn't parse myURL = \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 4990,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Dictionary",
+      "offset": 6226,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Dictionary",
+      "offset": 6968,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Array",
+      "offset": 7115,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7825,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8074,
+      "length": 7,
+      "value": "1000000"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 8392,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 8734,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 9081,
+      "length": 6,
+      "value": "\"prev\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Array",
+      "offset": 9230,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 9473,
+      "length": 6,
+      "value": "\"next\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Array",
+      "offset": 9618,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Array",
+      "offset": 10103,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10169,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Array",
+      "offset": 10280,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10346,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 10581,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 10687,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 10795,
+      "length": 6,
+      "value": "\"prev\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 10910,
+      "length": 6,
+      "value": "\"next\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11800,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 12482,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 12689,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 12898,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13104,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13203,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13296,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13466,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 13620,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 13721,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 14143,
+      "length": 7,
+      "value": "\"asset\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17237,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17324,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17415,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17506,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17597,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18092,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18409,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 18488,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 19201,
+      "length": 33,
+      "value": "\"resource not found \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 19233,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 19255,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 19550,
+      "length": 11,
+      "value": "\"category \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 19601,
+      "length": 7,
+      "value": "\"mode \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 19644,
+      "length": 22,
+      "value": "\"displayNotification \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 19720,
+      "length": 7,
+      "value": "\"url: \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Array",
+      "offset": 20079,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20145,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20325,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20498,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 20582,
+      "length": 31,
+      "value": "\"AVURLAssetHTTPHeaderFieldsKey\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 20652,
+      "length": 32,
+      "value": "\"AVURLAssetOutOfBandMIMETypeKey\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 20686,
+      "length": 12,
+      "value": "\"audio\/mpeg\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22330,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22368,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 22594,
+      "length": 17,
+      "value": "\"status: unknown\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 22679,
+      "length": 23,
+      "value": "\"status: ready to play\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 22761,
+      "length": 12,
+      "value": "\"liveStream\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "Dictionary",
+      "offset": 22860,
+      "length": 24,
+      "value": "[(\"totalDurationMs\", 0.0)]"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 22948,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22998,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23344,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 23431,
+      "length": 17,
+      "value": "\"totalDurationMs\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 24597,
+      "length": 17,
+      "value": "\"playback failed\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 24762,
+      "length": 12,
+      "value": "\"PLAY_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 24809,
+      "length": 14,
+      "value": "\"Cannot play \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 25223,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25254,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 25343,
+      "length": 12,
+      "value": "\"PLAY_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 25382,
+      "length": 14,
+      "value": "\"Cannot play \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 25945,
+      "length": 20,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 25964,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26577,
+      "length": 6,
+      "value": "-11863"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26633,
+      "length": 6,
+      "value": "-11867"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 26723,
+      "length": 21,
+      "value": "\"avplayer http error\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 26831,
+      "length": 16,
+      "value": "\"avplayer error\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27180,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27236,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27649,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28062,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28121,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28136,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28293,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28353,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28504,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28520,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28533,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28736,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28894,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 30479,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30507,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 30912,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 30945,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 31018,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 31811,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31887,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31993,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 32680,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32757,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33396,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "FloatLiteral",
+      "offset": 34287,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34793,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35206,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35714,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35792,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 3106,
+      "length": 6,
+      "value": "\"assets_audio_player.Player\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 36723,
+      "length": 17,
+      "value": "\"player.position\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 36774,
+      "length": 17,
+      "value": "\"player.finished\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 36827,
+      "length": 18,
+      "value": "\"player.isPlaying\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 36885,
+      "length": 22,
+      "value": "\"player.forwardRewind\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 36940,
+      "length": 16,
+      "value": "\"player.current\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 36988,
+      "length": 15,
+      "value": "\"player.volume\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 37041,
+      "length": 20,
+      "value": "\"player.isBuffering\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 37097,
+      "length": 18,
+      "value": "\"player.playSpeed\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 37145,
+      "length": 13,
+      "value": "\"player.next\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 37188,
+      "length": 13,
+      "value": "\"player.prev\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 37240,
+      "length": 20,
+      "value": "\"player.playOrPause\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 37291,
+      "length": 14,
+      "value": "\"player.error\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 37607,
+      "length": 22,
+      "value": "\"assets_audio_player\/\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 38602,
+      "length": 21,
+      "value": "\"assets_audio_player\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39041,
+      "length": 11,
+      "value": "\"isPlaying\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39198,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39260,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39438,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39533,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39595,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39831,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 39983,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 40045,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 40223,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 40318,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 40380,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 40617,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 40657,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 40810,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 40872,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41050,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41145,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41207,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 41445,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41485,
+      "length": 6,
+      "value": "\"stop\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41637,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41699,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41877,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 41972,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 42034,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 42288,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 42328,
+      "length": 6,
+      "value": "\"seek\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 42480,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 42542,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 42720,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 42815,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 42877,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43053,
+      "length": 4,
+      "value": "\"to\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43145,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43207,
+      "length": 33,
+      "value": "\" Arguments[to] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43451,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43474,
+      "length": 8,
+      "value": "\"volume\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43628,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43690,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43868,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 43963,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 44025,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 44204,
+      "length": 8,
+      "value": "\"volume\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 44303,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 44365,
+      "length": 37,
+      "value": "\" Arguments[volume] must be a Double\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 44625,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 44665,
+      "length": 11,
+      "value": "\"playSpeed\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 44822,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 44884,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 45062,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 45157,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 45219,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 45401,
+      "length": 11,
+      "value": "\"playSpeed\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 45503,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 45565,
+      "length": 40,
+      "value": "\" Arguments[playSpeed] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 45837,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 45877,
+      "length": 18,
+      "value": "\"showNotification\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46041,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46103,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46281,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46376,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46438,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46615,
+      "length": 6,
+      "value": "\"show\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46710,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 46772,
+      "length": 33,
+      "value": "\" Arguments[show] must be a Bool\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 47082,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47122,
+      "length": 17,
+      "value": "\"loopSingleAudio\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47285,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47347,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47525,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47620,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47682,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47859,
+      "length": 6,
+      "value": "\"loop\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 47954,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 48016,
+      "length": 33,
+      "value": "\" Arguments[loop] must be a Bool\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 48274,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 48314,
+      "length": 15,
+      "value": "\"forwardRewind\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 48475,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 48537,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 48715,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 48810,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 48872,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49050,
+      "length": 7,
+      "value": "\"speed\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49148,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49210,
+      "length": 36,
+      "value": "\" Arguments[speed] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 49471,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49511,
+      "length": 27,
+      "value": "\"forceNotificationForGroup\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49684,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49746,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49918,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 49989,
+      "length": 11,
+      "value": "\"isPlaying\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 50089,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 50151,
+      "length": 38,
+      "value": "\" Arguments[isPlaying] must be a Bool\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 50336,
+      "length": 9,
+      "value": "\"display\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 50434,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 50496,
+      "length": 36,
+      "value": "\" Arguments[display] must be a Bool\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 51304,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 51344,
+      "length": 16,
+      "value": "\"onAudioUpdated\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 51506,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 51568,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 51746,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 51841,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 51903,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 52080,
+      "length": 6,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 52177,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 52239,
+      "length": 35,
+      "value": "\" Arguments[path] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 52596,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 52636,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 52788,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 52850,
+      "length": 36,
+      "value": "\" Arguments must be an NSDictionary\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53028,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53123,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53185,
+      "length": 33,
+      "value": "\" Arguments[id] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53367,
+      "length": 6,
+      "value": "\"path\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53464,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53526,
+      "length": 35,
+      "value": "\" Arguments[path] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53724,
+      "length": 9,
+      "value": "\"package\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53820,
+      "length": 11,
+      "value": "\"audioType\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53922,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 53984,
+      "length": 40,
+      "value": "\" Arguments[audioType] must be a String\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54170,
+      "length": 8,
+      "value": "\"volume\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54269,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54331,
+      "length": 37,
+      "value": "\" Arguments[volume] must be a Double\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54506,
+      "length": 6,
+      "value": "\"seek\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54579,
+      "length": 11,
+      "value": "\"playSpeed\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54681,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54743,
+      "length": 40,
+      "value": "\" Arguments[playSpeed] must be a Double\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 54932,
+      "length": 11,
+      "value": "\"autoStart\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 55032,
+      "length": 13,
+      "value": "\"METHOD_CALL\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 55094,
+      "length": 38,
+      "value": "\" Arguments[autoStart] must be a Bool\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 55297,
+      "length": 16,
+      "value": "\"networkHeaders\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 55394,
+      "length": 19,
+      "value": "\"respectSilentMode\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 55427,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 55480,
+      "length": 21,
+      "value": "\"displayNotification\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 55515,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 55772,
+      "length": 20,
+      "value": "\"audioFocusStrategy\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 36651,
+      "length": 5,
+      "value": "\"assets_audio_player.Music\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 57076,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 56984,
+      "length": 12,
+      "value": "\"assets_audio_player.NetworkError\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 57210,
+      "length": 8,
+      "value": "\"player\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 57119,
+      "length": 11,
+      "value": "\"assets_audio_player.PlayerError\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 57751,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 57783,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 57820,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 57991,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 58253,
+      "length": 9,
+      "value": "\"request\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 58479,
+      "length": 25,
+      "value": "\"resumeAfterInterruption\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58518,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "StringLiteral",
+      "offset": 58578,
+      "length": 30,
+      "value": "\"resumeOthersPlayersAfterDone\""
+    },
+    {
+      "filePath": "\/Users\/nguyenduythanh\/.pub-cache\/git\/Flutter-AssetsAudioPlayer-7fa0d0eec8538d1591814d24fc695dda59525d65\/darwin\/Classes\/Music.swift",
+      "kind": "BooleanLiteral",
+      "offset": 58622,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
