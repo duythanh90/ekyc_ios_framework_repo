@@ -86,4 +86,8 @@ LICENSE
     ws.platform              = :ios, '9.0'
     ws.vendored_frameworks   = 'assets_audio_player.xcframework'
 
+  s.subspec 'share_plus' do |ws|
+    ws.platform              = :ios, '9.0'
+    ws.vendored_frameworks   = 'share_plus.xcframework'
+
 end
