@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ekyc_sdk'
-  s.version               = '1.1.131' 
+  s.version               = '1.1.132' 
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'tuandv8@gmail.com' }
-  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/release-20230918/ekyc_sdk.zip' }
+  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/release-20231006-1/ekyc_sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
 
