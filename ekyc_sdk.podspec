@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'giangnt82@gmail.com' }
-  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231013/ekyc_sdk.zip' }
+  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231017/ekyc_sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
 
@@ -84,10 +84,10 @@ LICENSE
     as.vendored_frameworks   = 'JuicyScoreFramework.xcframework'
   end
 
-  s.subspec 'Lottie' do |as|
-    as.platform              = :ios, '9.0'
-    as.vendored_frameworks   = 'Lottie.xcframework'
-  end
+#   s.subspec 'Lottie' do |as|
+#     as.platform              = :ios, '9.0'
+#     as.vendored_frameworks   = 'Lottie.xcframework'
+#   end
 
   s.subspec 'path_provider_foundation' do |as|
     as.platform              = :ios, '9.0'
@@ -145,6 +145,6 @@ LICENSE
     #as.dependency "PromiseKit", "6.8.0"
     #as.dependency "lottie-ios", "3.2.1"
     #as.dependency "CocoaLumberjack/Swift"
-    as.dependency "OpenSSL-Universal"
+    #as.dependency "OpenSSL-Universal"
   end
 end
