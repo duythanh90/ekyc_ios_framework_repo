@@ -135,7 +135,6 @@ LICENSE
   s.subspec 'trust_vision_plugin' do |as|
     as.platform              = :ios, '9.0'
     as.vendored_frameworks   = 'trust_vision_plugin.xcframework'
-    as.static_framework = true
   end
 
   s.subspec 'Frameworks' do |as|
