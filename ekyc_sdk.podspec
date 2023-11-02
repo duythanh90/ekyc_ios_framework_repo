@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ekyc_sdk'
-  s.version               = '1.1.132'
+  s.version               = '1.1.133'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'giangnt82@gmail.com' }
-  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231017/ekyc_sdk.zip' }
+  s.source                = {  :http => 'file:' + '/Users/tg/Desktop/iOS/ekyc_ios_framework_repo/ekyc_sdk.zip'  }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
 
@@ -91,6 +91,10 @@ LICENSE
 
   s.subspec 'path_provider_foundation' do |as|
     as.platform              = :ios, '9.0'
+    as.ios.xcconfig = {
+        'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)/ $(SDKROOT)/usr/lib/swift',
+        'LD_RUNPATH_SEARCH_PATHS' => '/usr/lib/swift',
+      }
     as.vendored_frameworks   = 'path_provider_foundation.xcframework'
   end
 
@@ -106,6 +110,7 @@ LICENSE
 
   s.subspec 'tflite_flutter' do |as|
     as.platform              = :ios, '9.0'
+    as.library = 'c++'
     as.vendored_frameworks   = 'tflite_flutter.xcframework'
   end
 
