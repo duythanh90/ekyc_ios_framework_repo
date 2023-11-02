@@ -47,10 +47,10 @@ LICENSE
     as.vendored_frameworks   = 'App.xcframework'
   end
 
-  s.subspec 'assets_audio_player' do |as|
-    as.platform              = :ios, '9.0'
-    as.vendored_frameworks   = 'assets_audio_player.xcframework'
-  end
+#   s.subspec 'assets_audio_player' do |as|
+#     as.platform              = :ios, '9.0'
+#     as.vendored_frameworks   = 'assets_audio_player.xcframework'
+#   end
 
   s.subspec 'camera_avfoundation' do |as|
     as.platform              = :ios, '9.0'
@@ -133,7 +133,6 @@ LICENSE
     as.platform              = :ios, '9.0'
     as.dependency 'SpeedcheckerSDK'
     as.preserve_paths = 'LinkIdDigitalFootprint.xcframework/**/*'
-    as.xcconfig = { 'OTHER_LDFLAGS' => '-framework LinkIdDigitalFootprint' }
     as.vendored_frameworks   = 'LinkIdDigitalFootprint.xcframework'
   end
 
