@@ -38,7 +38,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'giangnt82@gmail.com' }
-  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231102/ekyc_sdk.zip' }
+#   s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231102/ekyc_sdk.zip' }
+  s.source                = { :http => 'file:' + '/Users/tg/Desktop/flutter/ekyc_ios_framework_repo/ekyc_sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
 
@@ -47,10 +48,10 @@ LICENSE
     as.vendored_frameworks   = 'App.xcframework'
   end
 
-#   s.subspec 'assets_audio_player' do |as|
-#     as.platform              = :ios, '9.0'
-#     as.vendored_frameworks   = 'assets_audio_player.xcframework'
-#   end
+  s.subspec 'audioplayers_darwin' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks   = 'audioplayers_darwin.xcframework'
+  end
 
   s.subspec 'camera_avfoundation' do |as|
     as.platform              = :ios, '9.0'
@@ -101,6 +102,11 @@ LICENSE
   s.subspec 'PromiseKit' do |as|
     as.platform              = :ios, '9.0'
     as.vendored_frameworks   = 'PromiseKit.xcframework'
+  end
+
+  s.subspec 'share_plus' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks   = 'share_plus.xcframework'
   end
 
   s.subspec 'TensorFlowLite' do |as|
