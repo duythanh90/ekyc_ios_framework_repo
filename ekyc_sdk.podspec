@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'giangnt82@gmail.com' }
-  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231124/ekyc_sdk.zip' }
+  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231125/ekyc_sdk.zip' }
 #   s.source                = { :http => 'file:' + '/Users/tg/Desktop/flutter/ekyc_ios_framework_repo/ekyc_sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
