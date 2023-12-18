@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ekyc_sdk'
-  s.version               = '1.1.139'
+  s.version               = '1.1.140'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'giangnt82@gmail.com' }
-  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231126/ekyc_sdk.zip' }
+  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231218/ekyc_sdk.zip' }
 #   s.source                = { :http => 'file:' + '/Users/tg/Desktop/flutter/ekyc_ios_framework_repo/ekyc_sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
@@ -53,9 +53,9 @@ LICENSE
     as.vendored_frameworks   = 'audioplayers_darwin.xcframework'
   end
 
-  s.subspec 'camera_avfoundation' do |as|
+  s.subspec 'camera' do |as|
     as.platform              = :ios, '9.0'
-    as.vendored_frameworks   = 'camera_avfoundation.xcframework'
+    as.vendored_frameworks   = 'camera.xcframework'
   end
 
   s.subspec 'CocoaLumberjack' do |as|
@@ -66,6 +66,18 @@ LICENSE
   s.subspec 'ekyc_flutter_sdk' do |as|
     as.platform              = :ios, '9.0'
     as.vendored_frameworks   = 'ekyc_flutter_sdk.xcframework'
+  end
+
+  s.subspec 'flutter_linkid_digitalfootprint' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks   = 'flutter_linkid_digitalfootprint.xcframework'
+  end
+
+  s.subspec 'LinkIdDigitalFootprint' do |as|
+    as.platform              = :ios, '9.0'
+    as.dependency 'SpeedcheckerSDK'
+    as.preserve_paths = 'LinkIdDigitalFootprint.xcframework/**/*'
+    as.vendored_frameworks   = 'LinkIdDigitalFootprint.xcframework'
   end
 
   s.subspec 'FlutterPluginRegistrant' do |as|
@@ -79,18 +91,18 @@ LICENSE
   end
 
 #UAT
-#   s.subspec 'JuicyScoreSDK' do |as|
-#     as.platform              = :ios, '9.0'
-#     as.vendored_frameworks = "JuicyScoreSDK/*.xcframework"
-#     as.resources = ["JuicyScoreSDK/res/mb.html"]
-#   end
+  s.subspec 'JuicyScoreSDK' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks = "JuicyScoreSDK/*.xcframework"
+    as.resources = ["JuicyScoreSDK/res/mb.html"]
+  end
 
 #Release
-  s.subspec 'JuicyScoreSDKRelease' do |as|
-    as.platform              = :ios, '9.0'
-    as.vendored_frameworks = "JuicyScoreSDKRelease/*.xcframework"
-    as.resources = ["JuicyScoreSDKRelease/mb.html"]
-  end
+#   s.subspec 'JuicyScoreSDKRelease' do |as|
+#     as.platform              = :ios, '9.0'
+#     as.vendored_frameworks = "JuicyScoreSDKRelease/*.xcframework"
+#     as.resources = ["JuicyScoreSDKRelease/mb.html"]
+#   end
 
 #   s.subspec 'Lottie' do |as|
 #     as.platform              = :ios, '9.0'
@@ -127,28 +139,6 @@ LICENSE
     as.vendored_frameworks   = 'tflite_flutter.xcframework'
   end
 
-  s.subspec 'url_launcher_ios' do |as|
-    as.platform              = :ios, '9.0'
-    as.vendored_frameworks   = 'url_launcher_ios.xcframework'
-  end
-
-  s.subspec 'webview_flutter_wkwebview' do |as|
-    as.platform              = :ios, '9.0'
-    as.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
-  end
-
-  s.subspec 'flutter_linkid_digitalfootprint' do |as|
-    as.platform              = :ios, '9.0'
-    as.vendored_frameworks   = 'flutter_linkid_digitalfootprint.xcframework'
-  end
-
-  s.subspec 'LinkIdDigitalFootprint' do |as|
-    as.platform              = :ios, '9.0'
-    as.dependency 'SpeedcheckerSDK'
-    as.preserve_paths = 'LinkIdDigitalFootprint.xcframework/**/*'
-    as.vendored_frameworks   = 'LinkIdDigitalFootprint.xcframework'
-  end
-
   s.subspec 'trust_vision_plugin' do |as|
     as.platform              = :ios, '9.0'
     as.vendored_frameworks   = 'trust_vision_plugin.xcframework'
@@ -164,4 +154,15 @@ LICENSE
     #as.dependency "CocoaLumberjack/Swift"
     #as.dependency "OpenSSL-Universal"
   end
+
+  s.subspec 'url_launcher_ios' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks   = 'url_launcher_ios.xcframework'
+  end
+
+  s.subspec 'webview_flutter_wkwebview' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks   = 'webview_flutter_wkwebview.xcframework'
+  end
+
 end
