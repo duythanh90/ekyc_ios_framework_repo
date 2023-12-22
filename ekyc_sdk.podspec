@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ekyc_sdk'
-  s.version               = '1.1.144'
+  s.version               = '1.1.147'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -38,8 +38,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'UIUX Dev Team' => 'giangnt82@gmail.com' }
-  s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231218-2/ekyc_sdk.zip' }
-#   s.source                = { :http => 'file:' + '/Users/tg/Desktop/flutter/ekyc_ios_framework_repo/ekyc_sdk.zip' }
+  #s.source                = { :http => 'https://github.com/duythanh90/ekyc_ios_framework_repo/raw/integrate-20231218-2/ekyc_sdk.zip' }
+  s.source                = { :http => 'file:' + '/Users/tg/Desktop/flutter/ekyc_ios_framework_repo/ekyc_sdk.zip' }
   s.documentation_url     = 'https://flutter.dev/docs'
   s.platform              = :ios, '9.0'
 
@@ -64,23 +64,23 @@ LICENSE
   end
 
   s.subspec 'ekyc_flutter_sdk' do |as|
-    as.platform              = :ios, '9.0'
+    as.platform              = :ios, '8.0'
     as.vendored_frameworks   = 'ekyc_flutter_sdk.xcframework'
   end
 
   s.subspec 'flutter_linkid_digitalfootprint' do |as|
-    as.platform              = :ios, '9.0'
+    as.platform              = :ios, '11.0'
     as.vendored_frameworks   = 'flutter_linkid_digitalfootprint.xcframework'
   end
 
   s.subspec 'LinkIdDigitalFootprint' do |as|
-    as.platform              = :ios, '9.0'
+    as.platform              = :ios, '11.0'
     as.preserve_paths = 'LinkIdDigitalFootprint.xcframework/**/*'
     as.vendored_frameworks   = 'LinkIdDigitalFootprint.xcframework'
   end
 
   s.subspec 'FlutterPluginRegistrant' do |as|
-    as.platform              = :ios, '9.0'
+    #as.platform              = :ios, '9.0'
     as.vendored_frameworks   = 'FlutterPluginRegistrant.xcframework'
   end
 
@@ -110,7 +110,7 @@ LICENSE
 #   end
 
   s.subspec 'path_provider_foundation' do |as|
-    as.platform              = :ios, '9.0'
+    as.ios.deployment_target = '11.0'
     as.ios.xcconfig = {
         'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)/ $(SDKROOT)/usr/lib/swift',
         'LD_RUNPATH_SEARCH_PATHS' => '/usr/lib/swift',
@@ -124,7 +124,8 @@ LICENSE
   end
 
   s.subspec 'share_plus' do |as|
-    as.platform              = :ios, '9.0'
+    as.ios.weak_framework = 'LinkPresentation'
+    as.platform = :ios, '11.0'
     as.vendored_frameworks   = 'share_plus.xcframework'
   end
 
@@ -156,7 +157,7 @@ LICENSE
   end
 
   s.subspec 'url_launcher_ios' do |as|
-    as.platform              = :ios, '9.0'
+    as.platform              = :ios, '11.0'
     as.vendored_frameworks   = 'url_launcher_ios.xcframework'
   end
 
