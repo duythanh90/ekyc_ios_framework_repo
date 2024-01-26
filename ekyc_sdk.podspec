@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ekyc_sdk'
-  s.version               = '1.1.159'
+  s.version               = '1.1.160'
   s.summary               = 'A UI toolkit for beautiful and fast apps.'
   s.description           = <<-DESC
 Flutter is Google's UI toolkit for building beautiful, fast apps for mobile, web, desktop, and embedded devices from a single codebase.
@@ -61,6 +61,11 @@ LICENSE
   s.subspec 'CocoaLumberjack' do |as|
     as.platform              = :ios, '9.0'
     as.vendored_frameworks   = 'CocoaLumberjack.xcframework'
+  end
+
+  s.subspec 'device_info_plus' do |as|
+    as.platform              = :ios, '9.0'
+    as.vendored_frameworks   = 'device_info_plus.xcframework'
   end
 
   s.subspec 'ekyc_flutter_sdk' do |as|
